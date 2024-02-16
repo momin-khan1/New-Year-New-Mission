@@ -1,0 +1,126 @@
+/* Google font */
+* {
+  font-family: "Merriweather", serif;
+  font-weight: 400, 700;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+/* Common Part */
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* Banner Part start */
+.banner-content{
+    background-image: url(../images/Banner-Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 600PX; */
+    margin: 30PX 50PX 0;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+
+}
+
+.banner-content P{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+    padding-bottom: 15px;
+    font-family: "Merriweather", serif;
+}
+
+.banner-content h2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Merriweather", serif;
+    font-weight: 800;
+}
+
+/* 65% Off Start */
+.offer{
+    text-align: center;
+}
+
+.offer-content h1{
+    color: #FF0000;
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 15px;
+    font-weight: 800;
+}
+
+.categories p{
+    color: #FF0000;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.categories h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.categories img{
+    width: 50%;
+}
+
+/* Welcome Banner Start  */
+
+.welcome-banner{
+    background-image: url(../images/Vectorrr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30PX 50PX 0;
+}
+
+.welcome{
+    display: flex;
+}
+
+.welcome-content{
+    width: 60%;
+    padding-top: 150px;
+    padding-left: 60px;
+}
+
+.welcome-content h2{
+    color: white;
+    font-family: "Merriweather", serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+
+    
+}
+
+.welcome-content p{
+    color: white;
+}
+
+.welcome-content button{
+    background-color: #000000;
+    color: white;
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.welcome-content-img img{
+    margin: 40px 0;
+}
