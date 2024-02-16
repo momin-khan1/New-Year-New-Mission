@@ -9,24 +9,27 @@
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
+
 }
 
-/* Common Part */
-section{
-    margin-top: 50px;
-    margin-bottom: 50px;
+body{
+    margin: 0;
+    padding: 0;
 }
+
 
 
 /* Banner Part start */
 .banner-content{
     background-image: url(../images/Banner-Image.png);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    /* height: 600PX; */
     margin: 30PX 50PX 0;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    border-radius: 20px;
+    margin-bottom: 70px;
 
 
 }
@@ -52,6 +55,7 @@ section{
 /* 65% Off Start */
 .offer{
     text-align: center;
+    margin-bottom: 70px;
 }
 
 .offer-content h1{
@@ -87,6 +91,8 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     margin: 30PX 50PX 0;
+    background-position: center;
+    border-radius: 20px;
 }
 
 .welcome{
@@ -123,4 +129,215 @@ section{
 
 .welcome-content-img img{
     margin: 40px 0;
+}
+
+/* join now Banner Start  */
+.join-now{
+    margin: 30PX 50PX 0;
+    background: linear-gradient(#f6bebe, #f3e1e1);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.join-now-content{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+   
+}
+
+.join-now-content h5{
+    margin: 0;
+    padding-bottom: 12px;
+}
+
+.diff-color{
+    color: red;
+}
+
+.join-now-content button{
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+/* Comming-soon Start */
+.comming-soon{
+    margin: 30PX 50PX 0;
+    margin-bottom: 70px;
+} 
+.content{
+    display: flex;
+   gap: 25px;
+   align-items: center
+}
+
+.first-content{
+    width: 33%;
+}
+
+.first-content h6{
+    color: #FF0000;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.first-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+}
+
+.second-content{
+    width: 33%;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.third-content{
+    width: 33%;
+}
+
+.third-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    color: red;
+}
+
+/* Portfolio Banner Start */
+
+.portfolio{
+    margin: 30PX 50PX 0;
+    margin-bottom: 60px;
+}
+
+.portfolio-content h6{
+    color: #FF0000;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.portfolio-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+}
+
+
+.portfolio-image{
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.portfolio-image img{
+    width: 100%;
+}
+
+.frist-image:hover img{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.second-image:hover img{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.third-image:hover img{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.fourth-image:hover img{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.fifth-image:hover img{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.sixth-image:hover img{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* Newsletter Banner Start */
+
+.newsletter{
+    margin: 30PX 50PX 0;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f2b9b9;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 20px;
+}
+
+.newsletter-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 15px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+}
+
+input{
+    border: none;
+    padding: 15px 30px;
+    width: 300px;
+    border-radius: 25px 0 0 25px;
+}
+
+.newsletter-content button{
+    border: none;
+    padding: 15px 30px;
+    width: 150px;
+    background-color: #FF0000;
+    color: white;
+    border-radius: 0 25px 25px 0;
+    margin-left: -20px;
+}
+
+/* Footer Start */
+footer{
+    background-color: #070211;
+    margin-top: 70px;
+    padding: 70px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-part p{
+    color: white;
+}
+
+.second-part p{
+    color: white;
+}
+
+.second-part i {
+    padding-right: 12px;
+}
+
+.social-icon{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
